@@ -1,0 +1,74 @@
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+
+#canvas {
+  display: none;
+  grid-gap: 5px;
+  width: fit-content;
+  margin: auto;
+}
+
+#message {
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  font-size: x-large;
+}
+
+#time-to-completion {
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+#choose-size {
+  text-align: center;
+}
+
+#new-game {
+  color: aliceblue;
+  width: 150px;
+  margin-left: calc(50% - 80px);
+  padding: 10px;
+  background-color: grey;
+  display: none;
+}
+
+#game-time {
+  color: aliceblue;
+  width: 150px;
+  padding: 10px;
+  background-color: grey;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.tile {
+  display: grid;
+  width: 100%;
+  height: 100%;
+}
+
+label {
+  font-weight: bold;
+  width: 100px;
+  margin-top: 10px;
+}
+
+input {
+  width: 200px;
+  margin-top: 10px;
+}
+
+body {
+  background-color: black;
+}
+
+#error-message {
+  color: red;
+  font-weight: bold;
+}

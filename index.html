@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Memory Game</h1>
+    <div id="choose-size">
+      <input
+        type="number"
+        name="rows"
+        id="rows"
+        min="1"
+        max="4"
+        placeholder="Enter number of grid rows"
+      /><br />
+      <input
+        type="number"
+        name="cols"
+        id="cols"
+        min="1"
+        max="4"
+        placeholder="Enter number of grid columns"
+      /><br />
+      <button id="game-time">Go to Game</button>
+      <p id="error-message"></p>
+    </div>
+
+    <div id="canvas"></div>
+    <p id="message"></p>
+    <div id="time-to-completion"></div>
+    <button id="new-game">Start a new game</button>
+    <script src="dist/dom_manipulation.js"></script>
+  </body>
+</html>
